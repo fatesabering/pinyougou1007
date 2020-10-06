@@ -1,0 +1,148 @@
+.secKill {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    border-left: 1px solid #b1191a;
+    padding: 3px 0 0 14px;
+}
+
+
+/* ----------------------nav部分------------------------- */
+
+.nav {
+    overflow: hidden;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 27px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.sk_con {
+    float: left;
+    margin-left: 10px;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 22px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\e90d';
+    font-family: 'icomoon';
+    margin-left: 5px;
+}
+
+
+/* ----------------------列表部分------------------------------ */
+
+.sk_container {
+    margin-bottom: 280px;
+}
+
+.sk_bd {
+    margin-top: 25px;
+}
+
+.sk_bd ul li {
+    position: relative;
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid transparent;
+    background-color: #fff;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #ed282e;
+}
+
+.sk_bd ul li>a img {
+    width: 100%;
+}
+
+.sk_bd ul li h3 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.price {
+    margin: 10px 0;
+}
+
+.price span:first-child {
+    font-size: 22px;
+}
+
+.price span:last-child {
+    font-size: 14px;
+    color: #a4a4a4;
+    margin-left: 8px;
+    text-decoration: line-through;
+}
+
+.sold_info {
+    margin: 10px 0;
+}
+
+.sold_no {
+    float: left;
+}
+
+.bar {
+    float: left;
+    width: 130px;
+    height: 12px;
+    border: 1px solid #ed282e;
+    border-radius: 6px;
+    margin: 4px 10px;
+}
+
+.bar_in {
+    width: 87%;
+    height: 10px;
+    background-color: #ed282e;
+    border-radius: 5px 0 0 5px;
+}
+
+.sold_left {
+    float: left;
+}
+
+.sk_bd ul li button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #b1191a;
+    font-size: 20px;
+    color: #ffffff;
+}
